@@ -18,9 +18,8 @@ Features:
  
  Wiring schematic is coming soon.
  
- 
+![alt text](https://github.com/petertombor/microcentrifuge/blob/master/pics/centrifuge1.png)
+![alt text](https://github.com/petertombor/microcentrifuge/blob/master/pics/Keyes_KY-032_Obstacle_Avoid_sensor.jpg)
 ![alt text](https://github.com/petertombor/microcentrifuge/blob/master/pics/display1.jpg)
 ![alt text](https://github.com/petertombor/microcentrifuge/blob/master/pics/display2.jpg)
-
-
 
