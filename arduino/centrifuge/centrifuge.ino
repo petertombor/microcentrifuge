@@ -2,7 +2,6 @@
 /*********************************************************************
 Monochrome OLEDs based on SSD1306 drivers
 128x64 size display using I2C
-Bekotes: 
  VCC 3.3v
  GND gnd
  SCL A5
@@ -12,10 +11,15 @@ Bekotes:
 
 #include <SPI.h>
 #include <Wire.h>
+#include <Servo.h>
+
+//https://github.com/ehubin/Adafruit-GFX-Library
 #include <Adafruit_GFX.h>
+
+//https://github.com/adafruit/Adafruit_SSD1306
 #include <Adafruit_SSD1306_64.h>
 
-#include <Servo.h>
+//https://github.com/thomasfredericks/Metro-Arduino-Wiring
 #include <Metro.h>
 
 
@@ -61,7 +65,7 @@ void setup() {
   display.setTextColor(WHITE);
   display.setCursor(0,0);
   
-  display.println("Fschnell Laboratory");
+  display.println("F&P Laboratory");
   display.println("");
   display.println("Lab Centrifuge V1.1");
   display.println("               2017");
@@ -75,7 +79,7 @@ void setup() {
 
 void rotation() {
   
-  //Ha a rotation signal és az utolso rotation signal idő diff > 3 millis, akkor tortent igazi rotation
+  //It is rotating if the time difference between the signal and the last signal is greater then 3 millis.
   if (time - lastTime > 3){
     lastTime = time;
     rotationCounter++;
