@@ -18,3 +18,9 @@ Features:
  
  Wiring schematic is coming soon.
  
+ 
+![alt text](https://github.com/petertombor/microcentrifuge/blob/master/pics/display1.jpg)
+![alt text](https://github.com/petertombor/microcentrifuge/blob/master/pics/display2.jpg)
+
+
+
