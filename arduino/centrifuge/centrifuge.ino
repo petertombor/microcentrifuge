@@ -2,6 +2,7 @@
 /*********************************************************************
 Monochrome OLEDs based on SSD1306 drivers
 128x64 size display using I2C
+Wiring: 
  VCC 3.3v
  GND gnd
  SCL A5
