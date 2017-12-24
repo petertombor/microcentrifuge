@@ -1,4 +1,4 @@
-# microcentrifuge
+# Microcentrifuge
 Improved FLab centrifuge with soft starter and rotational speed measuring and display feature.
 
 This is a micro centrifuge based on the FLab implementation. 
