@@ -1,6 +1,10 @@
 # Microcentrifuge
 Improved FLab centrifuge with soft starter and rotational speed measuring and display feature.
 
+Video:
+https://youtu.be/BCs0ghjzTHo
+
+
 This is a micro centrifuge based on the FLab implementation. 
 http://www.instructables.com/id/3D-Printed-DIYbio-Mini-Centrifuge/
 
